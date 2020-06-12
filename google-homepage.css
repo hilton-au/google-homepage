@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#google-logo{
+    grid-column: 3;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+}
+
+.searchbar{
+    grid-column: 3;
+    grid-row: 4/5;
+    justify-self: center;
+    align-self: center;
+}
+
+.searchbar input{
+    height: 40px;
+    width: 650px;
+    border-radius: 25px;
+    border-color: rgb(219, 218, 218);
+    border-width: thin;
+}
