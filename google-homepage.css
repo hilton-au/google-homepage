@@ -91,6 +91,7 @@
     border-color: rgb(219, 218, 218);
     border-width: thin;
     justify-self: center;
+    border-style: solid;
 }
 
 .button{
