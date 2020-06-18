@@ -120,6 +120,7 @@
     bottom: 0;
     background-color:  #f2f2f2;
     padding-top: 15px;
+    padding-bottom: 1%;
     left: 10px;
     right: 10px;
 }
@@ -141,8 +142,7 @@
 
 #privacy{
     display: inline;
-    padding-left: 68%;
-
+    padding-left: 65%;
 }
 
 #terms{
@@ -153,6 +153,6 @@
 }
 #settings{
     display: inline;
-    padding: 20px;
+    padding: 8px;
 
 }
