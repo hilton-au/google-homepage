@@ -13,8 +13,7 @@
 
 
 .links a:link, a:visited{
-    text-decoration: underline;
-    color: rgb(36, 35, 35);
+    color: #5F6368;;
     text-decoration: none;
     font-size: 13px;
     font-family: Arial, sans-serif;
@@ -111,7 +110,49 @@
     grid-column: 2/3;
 }
 
-#button3 {
+#button3 {  
     justify-self: flex-end;
     grid-column: 3/4;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    background-color:  #f2f2f2;
+    padding-top: 15px;
+    left: 10px;
+    right: 10px;
+}
+
+#advertising{
+    display: inline;
+    padding: 20px;
+}
+
+#business{
+    display: inline;
+    padding: 20px;
+}
+
+#how{
+    display: inline;
+    padding: 20px;
+}
+
+#privacy{
+    display: inline;
+    padding-left: 68%;
+
+}
+
+#terms{
+    display: inline;
+    padding: 20px;
+
+
+}
+#settings{
+    display: inline;
+    padding: 20px;
+
 }
