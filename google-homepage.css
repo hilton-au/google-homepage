@@ -43,13 +43,18 @@
     grid-row: 1;
     grid-column: 5;
     display: grid;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: repeat(5,auto);
     grid-template-rows: repeat(3, 1fr);
     align-self: center;
 }
 
+
 #gmail{
-    justify-self: center;
+    justify-self: right;
+}
+
+#images{
+    justify-self: right;
 }
 
 .button1{
