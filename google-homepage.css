@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(5,auto);
     grid-template-rows: repeat(5, 1fr);
+    margin: 0 auto 0 auto;
 }
 
 #google-logo{
@@ -115,6 +116,11 @@
     grid-column: 3/4;
 }
 
+.footer{
+    display: grid;
+    grid-template-columns: repeat(100,auto);
+}
+
 #footer{
     position: absolute;
     bottom: 0;
@@ -123,36 +129,40 @@
     padding-bottom: 1%;
     left: 10px;
     right: 10px;
+    max-width: 100%;
+
 }
 
 #advertising{
     display: inline;
-    padding: 20px;
+    padding-left: 1%;
+    grid-column: 1;
 }
 
 #business{
     display: inline;
-    padding: 20px;
+    padding-left: 1%;
+    grid-column: 2;
 }
 
 #how{
     display: inline;
-    padding: 20px;
+    padding-left: 1%;
+    grid-column: 3;
 }
 
 #privacy{
     display: inline;
-    padding-left: 65%;
+    grid-column: 98;
 }
 
 #terms{
     display: inline;
-    padding: 20px;
-
-
+    padding-left: 1%;
+    grid-column: 99;
 }
 #settings{
     display: inline;
-    padding: 8px;
-
+    padding-left: 1%;
+    grid-column: 100;
 }
