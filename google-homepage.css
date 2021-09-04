@@ -114,11 +114,13 @@
 #button2 {
     justify-self: flex-start;
     grid-column: 2/3;
+    padding: 0px;
 }
 
 #button3 {  
     justify-self: flex-end;
     grid-column: 3/4;
+    padding: 0px;
 }
 
 .footer{
